@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-lottie": "^1.2.4",
+    "react-lottie-player": "^2.0.0",
+    "react-type-animation": "^3.2.0",
+    "styled-components": "^6.1.8"
+  }
+}
