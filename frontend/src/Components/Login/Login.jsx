@@ -11,6 +11,7 @@ import { styled, Paper, Box, keyframes } from '@mui/material';
 import Lottie from 'react-lottie';
 import animationData from './Strife.json';
 import Strife from '../../Images/Strife.json';
+import { ArrowRightAltSharp } from '@mui/icons-material';
 function Login() {
   const [data, setData] = useState({ username: "", email: "", password: "" });
   const [loading, setLoading] = useState(false);
@@ -226,7 +227,7 @@ function Login() {
                   navigate('/signup')
                 }}
               >
-                Sign Up
+                Sign Up <ArrowRightAltSharp />
               </span>
             </p>
           </div>

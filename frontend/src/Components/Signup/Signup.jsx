@@ -9,6 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import { styled, Paper, Box, keyframes } from '@mui/material';
 import Lottie from 'react-lottie';
 import Strife from '../../Images/Strife.json';
+import TypingAnimation from './TypingAnimation';
+import { ArrowRightAltSharp } from '@mui/icons-material';
 
 
 const SignUp = () => {
@@ -192,7 +194,10 @@ const SignUp = () => {
               <div className="container-alt-login">
                 <div className="container-about-signup">
                   <div className="about">
-                    <h1>Let's get you ready</h1>
+                    <h1>
+                    <TypingAnimation  text=" .Let's get you ready! 😎"
+                                        speed={40}  />
+                                        </h1>
                   </div>
                 </div>
               
@@ -276,7 +281,7 @@ const SignUp = () => {
                   <div className="form-footer-login">
                     <ul className="no-list-login">
                       <li>
-                        Already have an account ? <Link to="/" style={{color:'darkviolet'}}>Login.</Link>
+                        Already have an account ? <Link to="/" style={{color:'darkviolet'}}>Login.<ArrowRightAltSharp/></Link>
                       </li>
                     </ul>
                   </div>
